@@ -1,0 +1,44 @@
+DNS : domain name service 
+HTTP : Hyper text transfer protocol 
+HTTP Request  
+
+Node.js => is a runtime build on Chrome v8 JS engine 
+
+- initiate the JSON package file => npm init --y 
+- install the Express framework => npm install express --save
+- Create the server.js file 
+- install the nodemon to restart the server on change (Globally) => npm i -g nodemon
+- install the nodemon to restart the server on change (Project Scope) => npm i -g nodemon
+
+Enviroment variable => hold configrations
+dabase integration(string, password) 
+
+To access the config.env file I should setup the .env => npm i dotenv
+
+- setup morgan to handle the middlewares 
+
+Middleware usually used before the route
+
+MongoDB is a NoSQL DataBase 
+install locally or hosted service like (Atlas) (preferred) 
+
+non relational
+- key value pairs 
+- documents 
+- wide columns 
+
+EX: MongoDB => stores data as BSON (Binary JSON) a binary, json like focument format that preserves the same structure whilre adding types and efficiency for storage and querying
+
+Building blocks 
+1- Top Level 
+2- Collections -> like a folders
+3- documents -> to store information of users for examples you create a document for each user -> 
+4- Field within the document -> like name, phone, email and etc..
+5- BSON -> Binary JSON - internally store the information in BSON (machine readable format) 
+6- Schema -> come with flexible schema 
+
+mongodb+srv://ahmedsalama_db_user:VUYZOTjatvV0e2fN@cluster0.0fpevuw.mongodb.net/
+
+uMT3SYqtADX7FsRF
+
+mongodb+srv://ahmedsalama_db_user:uMT3SYqtADX7FsRF@cluster0.0fpevuw.mongodb.net/
